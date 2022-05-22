@@ -11,7 +11,7 @@ refer to https://youtu.be/XuMrEDA8cAI
 
 ### - Jenkins
 1. download windows LTS version for Jenkins
-2. before installation, setup service account for Jenkins, Local Security > Local Policies > User Rights Assignment > Log on as a service > Add User or Group..., input "Administrator", and [Check Names], then [OK] ==> XXX not working
+2. pre-installation, setup service account for Jenkins, Local Security > Local Policies > User Rights Assignment > Log on as a service > Add User or Group..., input "Administrator", and [Check Names], then [OK] ==> XXX not working
 3. install Jenkins, follow the setup wizards of Jenkins. (because of above failure, choose Run service as LocalSystem); NOT "Start Service" before config of Jenkins
-4. after installation, edit jenkins.xml if needed for path modification, JENKINS_HOME, executable, arguments,... (you might nned to refer the youtube video to setup)
+4. post-installation, edit jenkins.xml if needed for path modification, JENKINS_HOME, executable, arguments,... (you might nned to refer the youtube video to setup)
 5. open "Services", find Jenkins and start running it
