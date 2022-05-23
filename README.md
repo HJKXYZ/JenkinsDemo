@@ -19,3 +19,9 @@ refer to [install Jenkins on Windows](https://www.jenkins.io/doc/book/installing
 ### - Unlocking Jenkins
 1. Browse to http://localhost:8080
 2. input password from initialAdminPassword
+
+
+# Uninstall Jenkins on Windows
+1. open "Control Panel\Programs\Programs and Features", choose **Jenkins**, then **uninstall** it
+2. Remove the rest of Jenkins files, depends on the file path that setup in **jenkins.xml**, find those paths and delete them
+
